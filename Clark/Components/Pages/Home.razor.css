@@ -1,0 +1,74 @@
+.home-page {
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* stack sections vertically */
+    gap: 50px;              /* space between sections */
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+    border-radius: 25px;
+}
+
+.section {
+    background-image: url("IT.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    display: block; /* natural flow, no vertical centering */
+}
+.section1{
+    background-color: green;
+    background-position: center;
+    padding: 50px 20px;
+    display: block; 
+}
+
+/* Profile image styling */
+#profile img {
+    display: block;
+    margin: 0 auto; /* horizontal center */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(12, 240, 12);
+}
+
+/* Name box */
+#name {
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(2, 32, 12, 0.85);
+    border: 3px solid rgb(12, 240, 12);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Project & Skills boxes */
+#project, #skills {
+    text-align: center;
+    font-style: italic;
+    color: rgb(205, 19, 226);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(2, 32, 12, 0.85);
+    border: 3px solid rgb(12, 240, 12);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    #project, #skills, #name {
+        width: 90%;
+        padding: 20px;
+    }
+    #profile img {
+        width: 200px;
+        height: 200px;
+    }
+}

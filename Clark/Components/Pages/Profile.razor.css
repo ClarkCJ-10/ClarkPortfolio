@@ -1,0 +1,35 @@
+#profile{
+    align-items: center;
+    justify-content: center;
+    
+}
+img{   
+    border: none;
+    border-radius: 50%;
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;  
+    width: 250px;
+    height: 250px;  
+}
+.back-profile{
+    background: linear-gradient(white,rgb(78, 245, 31));
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+#name{
+    
+    font-style: italic;        
+    font-family: "Arial", sans-serif;
+    color:aliceblue;
+    text-align: center;
+    position: absolute;     
+    top: 50%;               
+    left: 37%;
+    padding: 40px;
+    border-radius:10px;
+    background-color: rgb(2, 32, 12);
+    border: solid 3px rgb(12, 240, 12);
+}

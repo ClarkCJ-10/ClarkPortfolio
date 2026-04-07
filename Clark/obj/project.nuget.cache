@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RvCK3i3QiuA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ricom\\OneDrive\\Desktop\\BLAZOR\\Clark\\Clark.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ricom\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

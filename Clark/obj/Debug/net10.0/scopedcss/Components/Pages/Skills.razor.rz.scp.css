@@ -1,0 +1,18 @@
+
+#skills[b-27cv5309rr]{
+     font-style: italic;        
+    font-family: "Arial", sans-serif;
+    color:aliceblue;
+    text-align: center;
+    border:3px solid green;
+    position: absolute;     
+    top: 30%;               
+    left: 45%;
+    padding: 40px;
+    border-radius:10px;
+    background:linear-gradient(white,rgb(231, 102, 42));
+}
+.back-skills[b-27cv5309rr]{
+    /*background-image: url("IT.jpg");*/
+    background-color: rgb(224,255,255);
+}
